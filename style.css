@@ -1,0 +1,38 @@
+#list {
+    color:rgb(128, 215, 6);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.table-content {
+    color:rgb(134, 206, 62);
+    font-weight: bold;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/pexels-gueylo-2148776361-30308896.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1; /* keep it behind all content */
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    color: blue;
+}
+
+div {
+    padding: 20px;
+}
+
+img {
+    border: 3px solid green;
+    margin: 30px;
+}
